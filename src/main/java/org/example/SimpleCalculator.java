@@ -21,8 +21,8 @@ public class SimpleCalculator {
         switch (operator) {
             case "-": result = (firstNum - secondNum); break;
             case "+": result = (firstNum + secondNum); break;
-            case "*": result = (firstNum + secondNum); break;
-            case "/": result = (firstNum + secondNum); break;
+            case "*": result = (firstNum * secondNum); break;
+            case "/": result = (firstNum / secondNum); break;
         };
 
         System.out.println("The result is: " + result);
